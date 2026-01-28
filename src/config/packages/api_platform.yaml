@@ -1,0 +1,12 @@
+api_platform:
+    title: API TC
+    version: 1.0.0
+    formats:
+        json: ['application/json']
+        xml: ['application/xml', 'text/hml']
+        jsonld: ['appliation/ld+json']
+        csv: ['text/csv']
+    defaults:
+        stateless: true
+        cache_headers:
+            vary: ['Content-Type', 'Authorization', 'Origin']
