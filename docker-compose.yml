@@ -13,7 +13,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: db_symfony
       MYSQL_USER: user
-      MYSQL_PASSWORD: 1234
+      MYSQL_PASSWORD: azer
   web:
    # image: php:8.4-apache
     build: 
